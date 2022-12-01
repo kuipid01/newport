@@ -1,0 +1,40 @@
+.progress-bar {
+    position: relative;
+    width: 100px;
+    height: 100px;
+   
+    
+  }
+  .contts{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+  .circle1 {
+    height: 100%;
+    right: 0px;
+    position: absolute;
+    border: solid 5px  #a9a9a9;
+    border-top-color:  #a9d161;
+    border-radius: 50%;
+  }
+  
+  .border {
+    width: 100%;
+    transform: rotate(135deg);  
+    animation: spin 1.3s steps(2) .2s infinite;
+    -webkit-animation: spin 1.3s linear infinite;
+  
+  }
+  
+  
+  @-webkit-keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

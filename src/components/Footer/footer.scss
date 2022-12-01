@@ -1,0 +1,72 @@
+.outfoot {
+    width: 100%;
+    height:max-content;
+    padding: 2rem;
+    display: flex;
+    background-color: rgb(16, 240, 8);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    .innerfoot{
+        padding: 3rem  0 0 0;
+        height: max-content;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        @media screen and (max-width:750px) {
+            width: 100%;
+           
+                }
+        .logo{
+            width: 70px;
+            height: 80px;
+            h1{
+                font-weight: 800;
+                padding: .5rem;
+                color: white;
+                border: solid 2px white;
+            span{
+                font-size: 32px;
+                font-weight: 800;
+                color: white;
+            }
+           
+            }
+        }
+        p{
+            text-align: center;
+            line-height: 1.7;
+            margin: 1.7rem;
+        }
+        ul{
+            display: flex;
+            li{
+                margin-right: 1.5rem;
+                width: 40px;
+                height: 40px;
+                border-radius: 5px;
+                color: white;
+                background-color: rgb(34, 122, 12);
+                display: flex;
+                justify-content: center;
+                cursor: pointer;
+                align-items: center;
+                .logs{
+                    width: 30px;
+                    height: 30px;
+                   color: white;
+              border: none  ;
+                }
+            }
+        }
+        h4{
+            font-weight: lighter;
+            margin-top: 2rem;
+            font-size: 10px;
+        }
+    }
+    
+}

@@ -1,0 +1,96 @@
+.educss{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    overflow: hidden;
+    .edu__inner{
+        width: 80%;
+        height: max-content;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        @media screen and (max-width:907px) {
+            width: 100%;
+                  }
+        
+        h4{
+            color: rgb(16, 240, 8);
+            font-size: 15px;
+            margin-bottom: .6rem;
+        }
+        h2{
+            margin-bottom: 1.2rem;
+        }
+        ul{
+           padding: 1rem .5rem;
+             margin-top: 2rem;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width:587px) {
+               flex-direction: column;
+                      }
+            li{
+                border-left: solid 5px rgb(16, 240, 8);
+                width: 45%;
+                margin-bottom: 2rem;
+                margin-right: 2rem;
+                position: relative;
+                transition: all ease .5s    ;
+                   cursor: pointer;
+                   @media screen and (max-width:907px) {
+              width: 30%;
+                    }
+                    @media screen and (max-width:701px) {
+                        width: 100%;
+                        border-bottom: solid 5px rgb(16, 240, 8);
+                    }
+                &:hover{
+                    .circle{
+                        background-color: white;
+                        border: solid 1px rgb(16, 240, 8);
+                    
+                    }
+                 }
+                // .circle{
+                //     width: 20px;
+                //     height: 20px;
+                //     border-radius: 50%;
+                //     background-color: rgb(16, 240, 8);
+                //     position: absolute;
+                //     transition: all ease .5s    ;
+                //     top: -2%;
+                //     left: -3.3%;
+                //     @media screen and (max-width:900px) {
+                //         left: -6.3%;
+                //               }
+                // }
+                .dets{
+                    display: flex;
+                    padding: 1rem 1rem;
+                    width:100%;
+                    flex-direction: column;
+                    h2{
+                        font-size: 20px;
+                        margin-bottom: 5px;
+                    }
+                    h4{
+                        color: black;
+                        margin-bottom: 1rem;
+                    }
+                    small{
+                        color: rgb(16, 240, 8);
+                    }
+                }
+            }
+        }
+    }
+
+}

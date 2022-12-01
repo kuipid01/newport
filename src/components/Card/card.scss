@@ -1,0 +1,73 @@
+
+.card{
+    width: 25%;
+    height: 150px;
+    border-top-right-radius: 23%;
+    border: solid 1px rgba(128, 128, 128, 0.349);
+    position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 1rem;
+margin-right: 2rem;
+margin-top: 1.3rem;
+margin-bottom: 3rem;
+cursor: pointer;
+background-color: white;
+transition:  all ease-in-out .7s;
+box-shadow: 7px;
+@media screen and (max-width:800px) {
+   width: 40%;
+   height: 200px;
+    }
+    @media screen and (max-width:700px) {
+        width: 30%;
+         }
+         @media screen and (max-width:650px) {
+            display: none;
+             }
+&:hover{
+    background-color: rgb(16, 240, 8);
+    transform: scale(.96);
+    color: white;
+    .overflow{
+        background-color: white;
+        border: rgb(46, 133, 6) solid 2px;
+        color: rgb(16, 165, 11);
+       
+    }
+    
+}
+.overflow{
+    position: absolute;
+    transition:  all ease-in-out .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: -18%;
+    left: 5%;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgb(16, 240, 8);
+    @media screen and (max-width:800px) {
+        top:-12%;
+         }
+}
+.text{
+    width: 100%;
+    margin: 1rem 0;
+    color: white;
+    @media screen and (max-width:850px) {
+       font-size: 12px;
+       font-weight: 800;
+
+         }
+}
+p{
+    width: 100%;
+    font-size: 12px;
+}
+}

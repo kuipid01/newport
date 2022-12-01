@@ -1,0 +1,63 @@
+.contactMe{
+    width: 100%;
+    height: max-content;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    ul{
+        width: 50%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+    @media screen and (max-width:750px) {
+        width: 100%;
+       
+            }
+ 
+        li{
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 2rem;
+            width: 100%;
+
+            border: solid rgb(16, 240, 8) .4px;
+        padding: 2px 1rem;
+            .logo{
+                
+                    margin-right: 1.5rem;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    color: white;
+                    background-color: rgb(34, 122, 12);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                
+                @media screen and (max-width:750px) {
+                    width: 25px;
+                    height: 25px;
+                        }
+            }
+            .contacts,.Email{
+                display: flex;
+                flex-direction: column;
+                h3{
+                    font-size: 17px;
+                    letter-spacing: .7px;
+                    font-weight: 400;
+                }
+                h4{
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+}
